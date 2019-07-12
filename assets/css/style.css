@@ -270,3 +270,61 @@ li p {
 .right-home {
     padding-left: 200px;
 }
+
+/* responsive */
+
+@media only screen and (max-width: 1700px) {
+
+    .container-fluid {
+        max-width: 1024px !important;
+    }
+
+    .nav-item {
+        font-size: 14px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 37px;
+        margin-top: 0;
+    }
+
+    h4 {
+        margin-top: 0;
+        font-size: 29px;
+        position: absolute !important;
+    }
+
+    h4::after {
+        content: "";
+        position: absolute;
+        height: 18px;
+        width: 100%;
+        background: #b0000d;
+        bottom: 20px;
+        margin-left: -55px;
+        z-index: -1;
+    }
+
+    ul.m-45 {
+        max-width: 350px;
+    }
+
+    li p {
+        margin: 10px 0;
+        padding: 10px 0;
+    }
+
+    p {
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
