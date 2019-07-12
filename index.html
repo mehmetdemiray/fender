@@ -16,8 +16,7 @@
 <body>
     <div class="background-overlay">
         <div class="l-image fender">
-            <img style="position: relative" data-tilt data-tilt-glare="true" data-tilt-scale="1.1" class="center"
-                src="./assets/img/fender.png" alt="" width="auto" height="96%">
+            <img class="tilt center" src="./assets/img/fender.png" alt="" width="auto" height="96%">
         </div>
         <div class="left">
             <div class="l-overlay"></div>
@@ -111,3 +110,8 @@
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
+    <script>
+        $('.tilt').tilt({
+            maxTilt: 8,
+        })
+    </script>
