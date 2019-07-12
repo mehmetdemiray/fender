@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,800i,900&display=swap"
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,600,700,800,800i,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -16,7 +16,8 @@
 <body>
     <div class="background-overlay">
         <div class="l-image fender">
-            <img class="center" src="./assets/img/fender.png" alt="" width="auto" height="96%">
+            <img style="position: relative" data-tilt data-tilt-glare="true" data-tilt-scale="1.1" class="center"
+                src="./assets/img/fender.png" alt="" width="auto" height="96%">
         </div>
         <div class="left">
             <div class="l-overlay"></div>
@@ -94,14 +95,19 @@
             <div class="col-md-6 my-auto right-home">
                 <h1>fender 60's</h1>
                 <h3>stratocaster</h3>
-                <h4>candy apple red</h4>
+                <h4 class="rel">candy apple red</h4>
+                <div class="m-70">
+                    <a href="#"><img src="./assets/img/youtube.png" alt=""></a>
+                </div>
+                <div class="m-20"></div>
+                <div class="m-45"></div>
+                <h5>Fender American Original<br />
+                    '60s Stratocaster</h5>
             </div>
+
         </div>
     </div>
-    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/tilt.jquery.js"></script>
-</body>
-
-</html>
+    <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
